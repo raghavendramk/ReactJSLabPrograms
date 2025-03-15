@@ -1,17 +1,17 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import './src/App.css'
+import './Form.css';
 
 const Form = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    password: ''
+    password: '',
   });
 
   const [errors, setErrors] = useState({
     name: '',
     email: '',
-    password: ''
+    password: '',
   });
 
   const [showPassword, setShowPassword] = useState(false);
